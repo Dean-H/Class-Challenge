@@ -12,5 +12,8 @@ $(document).ready(function(){
             console.log(tempdiv);
         }
     }
+    
+});
+$(document).mousemove(function(e){
     $(".cursorImage").css({left:e.pageX, top:e.pageY})
 })
