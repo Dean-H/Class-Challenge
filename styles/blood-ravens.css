@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 	border: 0 none;
+	cursor: not-allowed !important;
 }
 
 body {
@@ -24,13 +25,20 @@ nav a {
 	border-radius: 50%;
 }
 
-iframe { -webkit-animation: rotation 2s infinite linear }
+iframe { 
+	margin: 100px 0;
+	-webkit-animation: rotation 2s infinite linear;
+}
 
 @-webkit-keyframes rotation {
 
 		from { -webkit-transform: rotate(0deg) }
 		to { -webkit-transform: rotate(359deg) }
 
+}
+
+main {
+	text-align: center;
 }
 
 .left {
@@ -47,6 +55,16 @@ iframe { -webkit-animation: rotation 2s infinite linear }
 	display: inline-block;
 }
 
+.knacker:nth-child(odd) {
+	  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
 .knacker:nth-child(even) {
 	background: yellow;
 	color: white;
@@ -54,4 +72,12 @@ iframe { -webkit-animation: rotation 2s infinite linear }
 	transform: translate(30px, 20px) rotate(20deg);
 }
 
+.toilet {
+	position: fixed;
+	right: 0;
+	top: 50%;
+	opacity: .5;
+	border: 10px solid pink;
+	transform: rotate(270deg);
+}
 
