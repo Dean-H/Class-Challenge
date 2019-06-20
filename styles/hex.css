@@ -6,28 +6,55 @@
   list-style: none;
 }
 
+#curse-body {
+  height: 100vh;
+  width: 100%;
+  background: url(../images/Hex/https___blogs-images.forbes.com_olliebarder_files_2018_07_castlevania_season2-1200x675.jpg)
+    center/cover no-repeat;
+}
+
 #img {
   width: 700px;
   height: 400px;
   background: url(../images/Hex/main-qimg-c7cc6b19aaf7b539048465176d5c8d58.png)
     center/cover no-repeat;
 }
-
+h1 {
+  color: white;
+  text-align: center;
+}
 nav {
-  background: black;
+  background: rgba(168, 16, 16, 0.534);
 }
 ul {
   /* width: 100%; */
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
 }
 
 ul li {
   /* background: green; */
   /* margin: 0 auto; */
+  /* overflow: auto; */
 }
 ul li a {
   font-size: 2rem;
   margin: 1rem;
   color: white;
+}
+
+/* Curses */
+.curse {
+  margin: 20px 0 20px 0;
+  text-align: left;
+  font-size: 1.8rem;
+  color: rgb(15, 202, 235);
+  font-weight: 900;
+}
+.explain {
+  text-align: right;
+  color: rgba(251, 235, 0, 0.842);
+  font-size: 1.4rem;
+  text-transform: uppercase;
 }
