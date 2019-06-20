@@ -54,7 +54,8 @@ ul li a {
 }
 .explain {
   text-align: right;
-  color: rgba(251, 235, 0, 0.842);
+  color: rgb(0, 251, 176);
   font-size: 1.4rem;
   text-transform: uppercase;
+  font-weight: 900;
 }
