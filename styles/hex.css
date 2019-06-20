@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#img {
+  background: url(../images/Hex/main-qimg-c7cc6b19aaf7b539048465176d5c8d58.png)
+    center/cover no-repeat;
+}
