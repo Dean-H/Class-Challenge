@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 #img {
@@ -9,4 +10,18 @@
   height: 400px;
   background: url(../images/Hex/main-qimg-c7cc6b19aaf7b539048465176d5c8d58.png)
     center/cover no-repeat;
+}
+
+ul {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+ul li {
+  background: red;
+}
+ul li a {
+  font-size: 2rem;
+  margin: 1rem;
 }
