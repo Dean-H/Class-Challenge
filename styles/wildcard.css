@@ -1,6 +1,7 @@
 body{
     animation-name: changeBGColor;
     animation-duration: 60s;
+    background-color: blue;
 }
 
 @keyframes changeBGColor{
