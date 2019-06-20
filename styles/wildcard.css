@@ -26,9 +26,9 @@ img{
     height: auto;
 }
 
-/* #contentDiv{
+#contentDiv{
     text-align: center;
-} */
+}
 
 .usDiv{
     width: 45%;
@@ -51,6 +51,7 @@ img{
     float: left;
     margin: 0.75%;
     padding: 1%;
+    background-color: lightcoral;
 }
 
 .usImage{
@@ -58,3 +59,11 @@ img{
     height: auto;
 }
 
+.usButton{
+    width: 20%;
+}
+
+.usButton:hover{
+    background-color: green;
+    scale: 1.5;
+}
