@@ -97,6 +97,6 @@ main {
 	transform: rotate(270deg);
 }
 
-#cursorImage {
-	position:absolute;
+.cursorImage {
+	position: absolute;
 }
