@@ -20,14 +20,25 @@ ul {
   /* width: 100%; */
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
 }
 
 ul li {
   /* background: green; */
   /* margin: 0 auto; */
+  overflow: auto;
 }
 ul li a {
   font-size: 2rem;
   margin: 1rem;
   color: white;
+}
+
+/* Curses */
+.curse {
+  text-align: center;
+  font-size: 1.5rem;
+}
+.explain {
+  text-align: center;
 }
