@@ -12,6 +12,9 @@ $(document).ready(function(){
             console.log(tempdiv);
         };
     };
+    $(".toilet").hover(function(){
+        window.alert("leave me im pooing");
+    })
 });
 $(document).mousemove(function(e){
     $(".cursorImage").css({left:e.pageX, top:e.pageY});
