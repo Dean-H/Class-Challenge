@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: red;
+}
+.main-page{
+    text-align: center;
+}
+h1{
+    font-size: 60px;
+    margin: 10px;
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.team-selector{
+    display: inline-block;
+    border: 2px solid black;  
+    width: 25%;
+    height: 250px;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    padding: 30px;
+    margin: 24px;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: .2s all ease-in-out;
+}   
+.team-selector:hover{
+    transform: scale(1.1);
+}
+.team-image{
+    border-radius: 100px;
+    display: block;
+    width: auto;
+    height: 90%;
+    margin: 10px;
+    align-self: center;
+}
+.team-selector h2{
+    display: block;
+}
