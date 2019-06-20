@@ -1,0 +1,57 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+}
+
+body {
+	background: linear-gradient(135deg, #feccb1 0%,#33ef00 27%,#f17432 50%,#ea5507 51%,#474966 78%,#0800ff 90%,#fb955e 100%);
+	font-size: 8px;
+}
+
+header {
+	margin: 120px 0 0;
+}
+
+nav a {
+	position: fixed;
+	left: 0;
+	top: 0;
+	background: red;
+	font-size: 20px;
+	padding: 40px;
+	margin: 40px;
+	border-radius: 50%;
+}
+
+iframe { -webkit-animation: rotation 2s infinite linear }
+
+@-webkit-keyframes rotation {
+
+		from { -webkit-transform: rotate(0deg) }
+		to { -webkit-transform: rotate(359deg) }
+
+}
+
+.left {
+	transform: scale(4);
+	float: left;
+}
+
+.right {
+	float: right;
+	text-decoration: underline;
+}
+
+.knacker {
+	display: inline-block;
+}
+
+.knacker:nth-child(even) {
+	background: yellow;
+	color: white;
+	margin: 20px 0 5px;
+	transform: translate(30px, 20px) rotate(20deg);
+}
+
+
