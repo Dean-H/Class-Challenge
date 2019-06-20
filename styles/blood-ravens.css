@@ -6,8 +6,9 @@
 }
 
 body {
-	background: linear-gradient(135deg, #feccb1 0%,#33ef00 27%,#f17432 50%,#ea5507 51%,#474966 78%,#0800ff 90%,#fb955e 100%);
+	font-family: "Consolata", monospace;
 	font-size: 8px;
+	background: radial-gradient(ellipse at center, #fceabb 0%,#ff0000 19%,#48ff00 36%,#fccd4d 50%,#000000 51%,#ff009d 68%,#0004ff 80%,#fbdf93 100%);
 }
 
 header {
@@ -15,6 +16,7 @@ header {
 }
 
 nav a {
+	animation: pulse .2s infinite;
 	position: fixed;
 	left: 0;
 	top: 0;
@@ -25,6 +27,21 @@ nav a {
 	border-radius: 50%;
 }
 
+
+
+@keyframes pulse {
+	0%, 100%  {
+		background-color: lime;
+	}
+	33% {
+		background-color: blue;
+	}
+	66% {
+		background-color: #ff0080;
+	}
+
+}
+
 iframe { 
 	margin: 100px 0;
 	-webkit-animation: rotation 2s infinite linear;
@@ -32,8 +49,8 @@ iframe {
 
 @-webkit-keyframes rotation {
 
-		from { -webkit-transform: rotate(0deg) }
-		to { -webkit-transform: rotate(359deg) }
+	from { -webkit-transform: rotate(0deg) }
+	to { -webkit-transform: rotate(359deg) }
 
 }
 
@@ -56,13 +73,13 @@ main {
 }
 
 .knacker:nth-child(odd) {
-	  animation: blinker 1s linear infinite;
+	animation: blinker 1s linear infinite;
 }
 
 @keyframes blinker {
-  50% {
-    opacity: 0;
-  }
+	50% {
+		opacity: 0;
+	}
 }
 
 .knacker:nth-child(even) {
@@ -81,3 +98,17 @@ main {
 	transform: rotate(270deg);
 }
 
+.cursorImage {
+	position: absolute;
+}
+
+.wisdom {
+	padding: 40px 20px;
+	background: black;
+	color: white;
+	width: 200px;
+	position: fixed;
+	left: 50%;
+	right: 50%;
+	bottom: 0;
+}
