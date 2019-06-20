@@ -23,3 +23,4 @@ anime.timeline({ loop: true })
             delay: function(el, i) {
                 return 100 + 30 * i;
             }
+        });
