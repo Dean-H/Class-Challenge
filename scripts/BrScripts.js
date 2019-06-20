@@ -15,5 +15,5 @@ $(document).ready(function(){
     
 });
 $(document).mousemove(function(e){
-    $(".cursorImage").css({left:e.pageX, top:e.pageY})
+    $(".cursorImage").css({left:e.pageX, top:e.pageY});
 })

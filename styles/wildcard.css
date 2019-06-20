@@ -9,3 +9,33 @@
     display: inline-block;
     line-height: 1em;
 }
+
+
+#contentDiv{
+    text-align: center;
+}
+
+.usDiv{
+    width: 45%;
+    float: left;
+    margin: 0.75%;
+}
+
+.usImageDiv{
+    text-align: center;
+    width: 45%;
+    float: left;
+    margin: 0.75%;
+}
+
+.usTextDiv{
+    text-align: left;
+    width: 45%;
+    float: left;
+    margin: 0.75%;
+}
+
+.usImage{
+    width: 80%;
+    height: auto;
+}
