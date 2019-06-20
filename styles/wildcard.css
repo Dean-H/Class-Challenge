@@ -1,6 +1,6 @@
 body{
     animation-name: changeBGColor;
-    animation-duration: 60s;
+    animation-duration: 30s;
     background-color: blue;
 }
 
