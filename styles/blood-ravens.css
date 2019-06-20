@@ -6,8 +6,9 @@
 }
 
 body {
-	background: linear-gradient(135deg, #feccb1 0%,#33ef00 27%,#f17432 50%,#ea5507 51%,#474966 78%,#0800ff 90%,#fb955e 100%);
+	font-family: "Consolata", monospace;
 	font-size: 8px;
+	background: linear-gradient(45deg, #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%);
 }
 
 header {
@@ -15,6 +16,7 @@ header {
 }
 
 nav a {
+	animation: pulse .2s infinite;
 	position: fixed;
 	left: 0;
 	top: 0;
@@ -25,6 +27,21 @@ nav a {
 	border-radius: 50%;
 }
 
+
+
+@keyframes pulse {
+	0%, 100%  {
+		background-color: lime;
+	}
+	33% {
+		background-color: blue;
+	}
+	66% {
+		background-color: #ff0080;
+	}
+
+}
+
 iframe { 
 	margin: 100px 0;
 	-webkit-animation: rotation 2s infinite linear;
@@ -32,8 +49,8 @@ iframe {
 
 @-webkit-keyframes rotation {
 
-		from { -webkit-transform: rotate(0deg) }
-		to { -webkit-transform: rotate(359deg) }
+	from { -webkit-transform: rotate(0deg) }
+	to { -webkit-transform: rotate(359deg) }
 
 }
 
@@ -56,13 +73,13 @@ main {
 }
 
 .knacker:nth-child(odd) {
-	  animation: blinker 1s linear infinite;
+	animation: blinker 1s linear infinite;
 }
 
 @keyframes blinker {
-  50% {
-    opacity: 0;
-  }
+	50% {
+		opacity: 0;
+	}
 }
 
 .knacker:nth-child(even) {
@@ -74,10 +91,26 @@ main {
 
 .toilet {
 	position: fixed;
-	right: 0;
+	left: -120px;
 	top: 50%;
 	opacity: .5;
 	border: 10px solid pink;
-	transform: rotate(270deg);
+	transform: rotate(-15deg);
 }
 
+.cursorImage {
+	position: absolute;
+}
+
+.wisdom {
+	padding: 40px 20px;
+	background: black;
+	color: white;
+	width: 600px;
+	position: fixed;
+	left: 50%;
+	right: 50%;
+	bottom: 0;
+	transform: skew(15deg);
+	z-index: 666;
+}

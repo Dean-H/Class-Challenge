@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+#img {
+  width: 700px;
+  height: 400px;
+  background: url(../images/Hex/main-qimg-c7cc6b19aaf7b539048465176d5c8d58.png)
+    center/cover no-repeat;
+}
+
+nav {
+  background: black;
+}
+ul {
+  /* width: 100%; */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+ul li {
+  /* background: green; */
+  /* margin: 0 auto; */
+  overflow: auto;
+}
+ul li a {
+  font-size: 2rem;
+  margin: 1rem;
+  color: white;
+}
+
+/* Curses */
+.curse {
+  text-align: center;
+  font-size: 1.5rem;
+}
+.explain {
+  text-align: center;
+}

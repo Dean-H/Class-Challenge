@@ -1,3 +1,19 @@
+body{
+    animation-name: changeBGColor;
+    animation-duration: 60s;
+}
+
+@keyframes changeBGColor{
+    from{background-color: rgb(255, 0, 0);}
+    to{background-color: rgb(0, 255, 0)}
+    to{background-color: rgb(0, 0, 255);}
+}
+
+@keyframes delayChangeBGColor{
+    from{background-color: rgb(0, 255, 0);}
+    to{background-color: rgb(0, 0, 255);}
+}
+
 .ml12 {
     font-weight: 200;
     font-size: 1.8em;
@@ -8,4 +24,34 @@
 .ml12 .letter {
     display: inline-block;
     line-height: 1em;
+}
+
+
+#contentDiv{
+    text-align: center;
+}
+
+.usDiv{
+    width: 45%;
+    float: left;
+    margin: 0.75%;
+}
+
+.usImageDiv{
+    text-align: center;
+    width: 45%;
+    float: left;
+    margin: 0.75%;
+}
+
+.usTextDiv{
+    text-align: left;
+    width: 45%;
+    float: left;
+    margin: 0.75%;
+}
+
+.usImage{
+    width: 80%;
+    height: auto;
 }

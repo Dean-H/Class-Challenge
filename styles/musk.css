@@ -1,0 +1,17 @@
+body{
+
+    background-color: cyan;
+}
+.div1{
+    background-color: black;
+    float: right;
+}
+
+#imgrocket{
+    position: relative;
+
+}
+h1{
+    font-style: italic;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
