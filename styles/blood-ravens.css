@@ -5,15 +5,18 @@
 	cursor: not-allowed !important;
 }
 
+h1 {
+	font-size: 48px;
+	color: silver;
+}
+
 body {
 	font-family: "Consolata", monospace;
 	font-size: 8px;
 	background: linear-gradient(45deg, #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%);
 }
 
-header {
-	margin: 120px 0 0;
-}
+header { margin: 120px 0 0 }
 
 nav a {
 	animation: pulse .2s infinite;
@@ -27,8 +30,6 @@ nav a {
 	border-radius: 50%;
 }
 
-
-
 @keyframes pulse {
 	0%, 100%  {
 		background-color: lime;
@@ -39,7 +40,6 @@ nav a {
 	66% {
 		background-color: #ff0080;
 	}
-
 }
 
 iframe { 
