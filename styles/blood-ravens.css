@@ -8,7 +8,7 @@
 body {
 	font-family: "Consolata", monospace;
 	font-size: 8px;
-	background: radial-gradient(ellipse at center, #fceabb 0%,#ff0000 19%,#48ff00 36%,#fccd4d 50%,#000000 51%,#ff009d 68%,#0004ff 80%,#fbdf93 100%);
+	background: linear-gradient(45deg, #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%);
 }
 
 header {
@@ -91,11 +91,11 @@ main {
 
 .toilet {
 	position: fixed;
-	right: 0;
+	left: -120px;
 	top: 50%;
 	opacity: .5;
 	border: 10px solid pink;
-	transform: rotate(270deg);
+	transform: rotate(-15deg);
 }
 
 .cursorImage {
@@ -106,9 +106,11 @@ main {
 	padding: 40px 20px;
 	background: black;
 	color: white;
-	width: 200px;
+	width: 600px;
 	position: fixed;
 	left: 50%;
 	right: 50%;
 	bottom: 0;
+	transform: skew(15deg);
+	z-index: 666;
 }
