@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+  list-style: none;
 }
 
 #img {
@@ -12,16 +13,21 @@
     center/cover no-repeat;
 }
 
+nav {
+  background: black;
+}
 ul {
-  width: 100%;
+  /* width: 100%; */
   display: flex;
   flex-flow: row wrap;
 }
 
 ul li {
-  background: red;
+  /* background: green; */
+  /* margin: 0 auto; */
 }
 ul li a {
   font-size: 2rem;
   margin: 1rem;
+  color: white;
 }
