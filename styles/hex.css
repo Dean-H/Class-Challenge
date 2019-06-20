@@ -5,6 +5,8 @@
 }
 
 #img {
+  width: 700px;
+  height: 400px;
   background: url(../images/Hex/main-qimg-c7cc6b19aaf7b539048465176d5c8d58.png)
     center/cover no-repeat;
 }
