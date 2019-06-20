@@ -1,3 +1,19 @@
+body{
+    animation-name: changeBGColor;
+    animation-duration: 60s;
+}
+
+@keyframes changeBGColor{
+    from{background-color: rgb(255, 0, 0);}
+    to{background-color: rgb(0, 255, 0)}
+    to{background-color: rgb(0, 0, 255);}
+}
+
+@keyframes delayChangeBGColor{
+    from{background-color: rgb(0, 255, 0);}
+    to{background-color: rgb(0, 0, 255);}
+}
+
 .ml12 {
     font-weight: 200;
     font-size: 1.8em;
