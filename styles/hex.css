@@ -9,8 +9,8 @@
 #curse-body {
   height: 100vh;
   width: 100%;
-  background: url(../images/Hex/Castlevania-Season-3-Netflix.jpg) center/cover
-    no-repeat;
+  background: url(../images/Hex/https___blogs-images.forbes.com_olliebarder_files_2018_07_castlevania_season2-1200x675.jpg)
+    center/cover no-repeat;
 }
 
 #img {
@@ -47,13 +47,14 @@ ul li a {
 /* Curses */
 .curse {
   margin: 20px 0 20px 0;
-  text-align: center;
-  font-size: 1.5rem;
-  color: rgb(1, 179, 250);
+  text-align: left;
+  font-size: 1.8rem;
+  color: rgb(15, 202, 235);
   font-weight: 900;
 }
 .explain {
-  text-align: center;
-  color: rgb(224, 248, 4);
-  font-size: 2rem;
+  text-align: right;
+  color: rgba(251, 235, 0, 0.842);
+  font-size: 1.4rem;
+  text-transform: uppercase;
 }
